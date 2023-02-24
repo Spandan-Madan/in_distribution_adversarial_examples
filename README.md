@@ -1,2 +1,3 @@
-# in_distribution_adversarial_examples
-Code for in distribution failure codebase.
+# Code for the paper "Adversarial examples within the training distribution: A widespread challenge."
+
+Paper: https://arxiv.org/abs/2106.16198
