@@ -7,7 +7,7 @@
   <a href="#codebase">Using the Codebase</a> •
 </div>
 
-This repository contains the official implementation of our paper: *When and how convolutional neural networks generalize to out-of-distribution category and viewpoint combinations*. Here you can find the code, demos and the data used for this project.
+This repository contains the official implementation of our paper: *Adversarial examples within the training distribution: A widespread challenge.* Here you can find the code, demos and the data used for this project.
 
 The paper can be accessed [here](https://arxiv.org/abs/2106.16198).
 
