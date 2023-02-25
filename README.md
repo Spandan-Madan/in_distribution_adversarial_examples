@@ -30,9 +30,9 @@ We provide three demos to reproduce our main findings on in-distribution adversa
 
 1. Simplistic parametrically controlled data sampled from disjoint per-category uniform distributions: [LINK](https://github.com/Spandan-Madan/in_distribution_adversarial_examples/blob/main/demos/demo_uniform_data.ipynb)
  
-2. Parametric and controlled images of objects using our graphics pipeline: [LINK](https://github.com/Spandan-Madan/in_distribution_adversarial_examples/blob/main/demos/demo_uniform_data.ipynb)
+2. Parametric and controlled images of objects using our graphics pipeline: [LINK](https://github.com/Spandan-Madan/in_distribution_adversarial_examples/blob/main/demos/demo_rendered_objects.ipynb)
  
-3. Natural image data from the ImageNet dataset: [LINK](https://github.com/Spandan-Madan/in_distribution_adversarial_examples/blob/main/demos/demo_uniform_data.ipynb)
+3. Natural image data from the ImageNet dataset: [LINK](https://github.com/Spandan-Madan/in_distribution_adversarial_examples/blob/main/demos/demo_imagenet_cma.ipynb)
 
 # Codebase
 
