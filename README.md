@@ -2,7 +2,7 @@
 <h3>Adversarial examples within the training distribution: A widespread challenge.</h3>
   <img src="teaser_part_1.png" alt="Teaser Figure">
   
-  <a href="https://arxiv.org/abs/2007.08032">Paper</a> •
+  <a href="https://arxiv.org/abs/2106.16198">Paper</a> •
   <a href="#overview">Overview</a> •
   <a href="#demos">Demos</a> •
   <a href="#codebase">Using the Codebase</a> •
