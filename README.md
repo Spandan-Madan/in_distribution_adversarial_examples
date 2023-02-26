@@ -49,3 +49,4 @@ Our work builds on three existing pipelines---[Redner](https://github.com/BachiL
 The best entry point to explore this code base would be to start from `demos` to understand the results, and explore how the rest of the code is used to reproduce the results in the paper.
 
 # Data
+The dataset with ShapeNet models rendered under camera and lighting variations can be accessed here: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/IELFFY.
