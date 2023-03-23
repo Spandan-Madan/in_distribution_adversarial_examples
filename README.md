@@ -38,6 +38,8 @@ We provide three demos to reproduce our main findings on in-distribution adversa
 
 Our work builds on three existing pipelines---[Redner](https://github.com/BachiLi/redner) for rendering images, [PyCMA] (https://github.com/CMA-ES/pycma) for running the CMA-ES search algorithm, and [Single view MPI](https://github.com/google-research/google-research/tree/master/single_view_mpi) for generating novel views with ImageNet. Each of these libraries were modified from their original versions to adapt them for searching in-distribution adversarial examples with *CMA-Search*, which we propose in our work. Thus, we provide the adapted versions with this codebase in the folders `redner`, `cma` and `single_view_mpi` respectively.
 
+### Code Structure
+
 `rendering`: Contains scripts for our computer graphics pipeline to render ShapeNet objects under lighting and viewpoint variations.
 
 `training_models`: Contains scripts and notebooks for training our visual recognition models.
@@ -47,6 +49,26 @@ Our work builds on three existing pipelines---[Redner](https://github.com/BachiL
 `demos`: Contains demos covering every aspect of training models, and attacking them using *CMA-Search* mentioned above.
 
 The best entry point to explore this code base would be to start from `demos` to understand the results, and explore how the rest of the code is used to reproduce the results in the paper.
+
+### System Requirements
+
+Analysis was conducted on MIT's OpenMind (https://openmind.mit.edu) and Harvard's FASRC clusters (https://www.rc.fas.harvard.edu). Machine architectures are as follows:
+
+- Operating System: CentOS Linux 7 (Core)
+- CPE OS Name: cpe:/o:centos:centos:7
+- Kernel: Linux 3.10.0-1062.el7.x86_64
+- Architecture: x86-64
+
+The code should work out of the box on most linux distributions. The code was not tested on MacOS, or any other linux distribution except CentOS Linux 7 (Core). Code was run using Python 3.8.5. Exact version numbers for python pacakges can be found in the `in_dist_requirements.txt` file. GPUs will be needed to accelerate training and inference time. 
+
+### Installation
+- Clone this github repository.
+- Install the required python packages using `pip` in accordance with the `in_dist_requirements.txt` file. This includes all package names and versions used in our analysis.
+- Download the data (not needed to run demos) following instructions below.
+
+       
+Data download, installation and setup combined should take less than 30 minutes to an hour.
+###
 
 # Data
 The dataset with ShapeNet models rendered under camera and lighting variations can be accessed here: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/IELFFY.
